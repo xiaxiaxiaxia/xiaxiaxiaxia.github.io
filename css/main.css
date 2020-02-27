@@ -1,0 +1,46 @@
+*{
+	height: 100%;
+	padding: 0px;
+	margin: 0px;
+	font-size: 16px;
+	line-height: 1.8em;
+	color:#666;
+}
+
+#left{
+	position: fixed;
+	text-align: center;
+	background-color: #666;
+	float: left;
+	width: 10%;
+}
+#left div{
+	height: 16.7%;
+	width: 100%;
+	text-align: center;
+	border: 1px dashed #FFFFFF;
+}
+
+#left div p{
+	padding-top: 15px;
+	font-size: 30px;
+	color: aliceblue;
+}
+
+.text{
+	position: relative;
+	background-image: url(../imgs/main.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+	float: right;
+	width: 90%;
+}
+
+.bar{
+	position: relative;
+	width: 90%;
+	height: 100px;
+	background-color: #666;
+	float: right;
+}
