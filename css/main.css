@@ -4,7 +4,7 @@
 	margin: 0px;
 	font-size: 16px;
 	line-height: 1.8em;
-	color:#666;
+	color: #FFFFFF;
 }
 
 #left{
@@ -14,29 +14,68 @@
 	float: left;
 	width: 10%;
 }
-#left div{
-	height: 16.7%;
+
+#leftselect{
+	background-color: rgba(0,0,0,0.3);
+	position: absolute;
+	top: 35%;
 	width: 100%;
-	text-align: center;
-	border: 1px dashed #FFFFFF;
+	height: 20%;
 }
 
-#left div p{
-	padding-top: 15px;
-	font-size: 30px;
-	color: aliceblue;
+.select{
+	font-size: 20px;
+	color: white;
 }
 
 /* 背景图片 */
+
+#footer{
+	background-image: url(../imgs/footer.jpg);
+}
+
+#jianli{
+	background-image: url(../imgs/jianli.jpg);
+	background-position: center;
+}
+#page1{
+	background-image: url(../imgs/page1.jpg);
+}
+
+#page2{
+	background-image: url(../imgs/page22.jpg);
+}
+
+#page3{
+	background-image: url(../imgs/page3.jpg);
+}
+
+#page4{
+	background-image: url(../imgs/page4.jpg);
+}
+
+#page5{
+	background-image: url(../imgs/page5.jpg);
+}
+
+#page6{
+	background-image: url(../imgs/page6.jpg);
+}
+
 .text,.hello,#footer{
 	position: relative;
-	background-image: url(../imgs/main.jpg);
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-attachment: fixed;
 	float: right;
 	width: 90%;
 }
+
+/* 字体颜色 */
+#page1 td,#page2 td,#page3 p,#page4 td,#page5 p,#page6 p{
+	color: black;
+}
+
 
 .bar{
 	position: relative;
@@ -77,7 +116,7 @@
 	/* border-bottom: 1px solid;
 	border-bottom-color: #ccc;
 	border-bottom-color: rgba(255, 255, 255, 0.2); */
-	background-color: rgba(255, 255, 255, 0.4);
+	background-color: rgba(255, 255, 255, 0.6);
 	box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
 }
 
@@ -90,7 +129,6 @@
 }
 
 table td{
-	color: black;
 	font-size: 25px;
 	height: 80px;
 }
@@ -123,19 +161,24 @@ table td{
 	position: absolute;
 	top: 30%;
 	left: 20%;
-	color: #000000;
 	font-size: 30px;
 }
 
 #jinengzhengshu p{
-	color: #000000;
 	font-size: 22px;
 }
 
 #ziwopingjia p{
 	position: absolute;
 	top: 30%;
-	color: #000000;
 	font-size: 30px;
 	padding: 20px;
+}
+
+#left table tr th:hover{
+	background-color: deepskyblue;
+}
+
+#thanks{
+	color: white;
 }
