@@ -46,7 +46,7 @@
 	float: right;
 }
 
-#hello{
+#hello,#thanks{
 	position: absolute;
 	top: 25%;
 	left: 30%;
@@ -56,6 +56,10 @@
 	font-size: 200px;
 	
 	line-height: 1.4em;
+}
+
+#thanks{
+	line-height: 1.7em;
 }
 
 #hello p{
@@ -89,4 +93,49 @@ table td{
 	color: black;
 	font-size: 25px;
 	height: 80px;
+}
+
+#myphoto{
+	position: absolute;
+	background-image: url(../imgs/zhu.jpg);
+	height: 80%;
+	width: 30%;
+	top: 10%;
+	left: 7%;
+	background-position: center;
+	box-shadow: 0 5px 10px;
+}
+
+#jiaoyubeijing,#ziwopingjia,#shixijingli,#jinengzhengshu,#xiaoyuanjingli{
+	position: absolute;
+	width: 70%;
+	height: 70%;
+	top: 12%;
+	left: 15%;
+	
+	padding: 30px;
+}
+#jiaoyubeijing table,#shixijingli table{
+	height: 70%;
+}
+
+#xiaoyuanjingli p{
+	position: absolute;
+	top: 30%;
+	left: 20%;
+	color: #000000;
+	font-size: 30px;
+}
+
+#jinengzhengshu p{
+	color: #000000;
+	font-size: 22px;
+}
+
+#ziwopingjia p{
+	position: absolute;
+	top: 30%;
+	color: #000000;
+	font-size: 30px;
+	padding: 20px;
 }
