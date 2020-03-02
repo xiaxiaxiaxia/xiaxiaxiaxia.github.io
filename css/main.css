@@ -4,7 +4,8 @@
 	margin: 0px;
 	font-size: 16px;
 	line-height: 1.8em;
-	color: #FFFFFF;
+	color: black;
+	
 }
 
 #left{
@@ -128,6 +129,7 @@
 	left: 15%;
 }
 
+
 table td{
 	font-size: 25px;
 	height: 80px;
@@ -136,12 +138,13 @@ table td{
 #myphoto{
 	position: absolute;
 	background-image: url(../imgs/zhu.jpg);
-	height: 80%;
-	width: 30%;
-	top: 10%;
-	left: 7%;
+	height: 58%;
+	width: 25%;
+	top: 34%;
+	left: 10%;
 	background-position: center;
 	box-shadow: 0 5px 10px;
+	background-repeat: no-repeat;
 }
 
 #jiaoyubeijing,#ziwopingjia,#shixijingli,#jinengzhengshu,#xiaoyuanjingli{
@@ -179,6 +182,22 @@ table td{
 	background-color: deepskyblue;
 }
 
-#thanks{
-	color: white;
+.title{
+	position: absolute;
+	font-size: 60px;
+	top: 50px;
+	width: 90%;
+}
+
+.content{
+	position: absolute;
+	width: 95%;
+	height: 50%;
+	top: 170px;
+}
+
+#page5text{
+	position: absolute;
+	top: 25%;
+	padding:20px;
 }
