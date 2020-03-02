@@ -36,7 +36,7 @@
 }
 
 #jianli{
-	background-image: url(../imgs/jianli.jpg);
+	background-image: url(../imgs/jianli.png);
 	background-position: center;
 }
 #page1{
@@ -129,7 +129,6 @@
 	left: 15%;
 }
 
-
 table td{
 	font-size: 25px;
 	height: 80px;
@@ -138,9 +137,9 @@ table td{
 #myphoto{
 	position: absolute;
 	background-image: url(../imgs/zhu.jpg);
-	height: 58%;
+	height: 50%;
 	width: 25%;
-	top: 34%;
+	top: 33%;
 	left: 10%;
 	background-position: center;
 	box-shadow: 0 5px 10px;
