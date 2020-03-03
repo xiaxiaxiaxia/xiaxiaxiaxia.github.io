@@ -19,7 +19,7 @@
 #leftselect{
 	background-color: rgba(0,0,0,0.3);
 	position: absolute;
-	top: 35%;
+	top: 30%;
 	width: 100%;
 	height: 20%;
 }
@@ -127,6 +127,14 @@
 	height: 70%;
 	top: 15%;
 	left: 15%;
+}
+
+#left p{
+	font-size: 30px;
+}
+a{
+	
+	text-decoration: none;
 }
 
 table td{
