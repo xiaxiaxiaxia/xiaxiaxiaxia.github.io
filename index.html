@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<!--参考：http://blog.haoji.me/-->
+		<meta charset="utf-8" />
+		<title>BootStrap Demo</title>
+		<!--import bootstrap css file-->
+		<link rel="stylesheet" type="text/css" href="lib/bootstrap/css/bootstrap.min.css"/>
+		<style type="text/css">
+			.margin-top{
+				margin-top: 15px;
+			}
+			.margin-left{
+				margin-left: 15px;
+			}
+		</style>
+	</head>
+	<body>
+		<!--navigator-->
+        <nav class="navbar navbar-default" role="navigation">
+        	<div class="container">
+        		<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-item" aria-expanded="false">
+	        		<span class="sr-only">汉堡按钮</span>
+	        		<span class="icon-bar"></span>
+	        		<span class="icon-bar"></span>
+	        		<span class="icon-bar"></span>
+	        	</button>
+	        	<div class="navbar-header">
+	        		<a class="navbar-brand" href="#">My Blog</a>
+	        	</div>
+	        	<!--Search TextBox-->
+	        	<div>
+			        <form class="navbar-form navbar-left" role="search">
+			            <div class="form-group">
+			                <input type="text" class="form-control" placeholder="Search">
+			            </div>
+			            <!--<button type="submit" class="btn btn-default">提交按钮</button>-->
+			        </form>
+	        	</div>
+	        	<!--Menu item-->
+	        	<div class="collapse navbar-collapse navbar-left" id="navbar-item">
+	        		<ul class="navbar-nav nav">
+	        			<li>
+	        				<a href="##">首页</a>
+	        			</li>
+	        			<li class="active">
+	        				<a href="##">文章</a>
+	        			</li>
+	        			<li>
+	        				<a href="##">工具</a>
+	        			</li>
+	        			<li>
+	        				<a href="##">云文件</a>
+	        			</li>
+	        			<li>
+	        				<a href="##">github</a>
+	        			</li>
+	        			<li>
+	        				<a href="##">留言</a>
+	        			</li>
+	        			<li>
+	        				<a href="##">关于</a>
+	        			</li>
+	        		</ul>
+	        	</div>
+        	</div>
+        </nav>
+        
+        <div class="container">
+        	
+        	<!--lunbo-->
+	        <div class="carousel slide" id="lunbo" data-ride="carousel">
+	        	<!--轮播计数器-->
+	        	<ol class="carousel-indicators">
+	        		<li class="active" data-target="lunbo" data-slide-to="0"></li>
+	        		<li data-target="lunbo" data-slide-to="1"></li>
+	        		<li data-target="lunbo" data-slide-to="2"></li>
+	        	</ol>
+	        	<!--轮播内容-->
+	        	<div class="carousel-inner">
+	        		<div class="item active">
+	        			<a href="#">
+	        				<img src="img/mao1.jpg" style="height: 250px;margin: 0 auto;" alt="" />
+	        			</a>
+	        			<div class="carousel-caption">
+	        				<h1>Demo1</h1>
+	        			</div>
+	        		</div>
+	        		<div class="item">
+	        			<a href="#">
+	        				<img src="img/mao2.jpg" style="height: 250px;margin: 0 auto;" alt="" />
+	        			</a>
+	        			<div class="carousel-caption">
+	        				<h1>Demo2</h1>
+	        			</div>
+	        		</div>
+	        		<div class="item">
+	        			<a href="#">
+	        				<img src="img/mao3.jpg" style="height: 250px;margin: 0 auto;" alt="" />
+	        			</a>
+	        			<div class="carousel-caption">
+	        				<h1>Demo3</h1>
+	        			</div>
+	        		</div>
+	        	</div>
+	        	<!--轮播图片控制器-->
+	        	<div class="left carousel-control" href="#lunbo" role="button" data-slide="prev">
+	        		<span class="glyphicon glyphicon-chevron-left">
+	        			
+	        		</span>
+	        	</div>
+	        	<div class="right carousel-control" href="#lunbo" role="button" data-slide="next">
+	        		<span class="glyphicon glyphicon-chevron-right">
+	        			
+	        		</span>
+	        	</div>
+	        </div>
+        	
+        	<!--content-->
+			<div class="row">
+				<!--Classifaction-->
+				<div class="col-lg-12 col-md-12 col-sm-12 hidden-xs">
+					<span id="classifiction1" class="label label-primary">
+						Web前端(222)
+					</span>
+					<span id="classifiction2" class="label label-info margin-left">
+						Java(15)
+					</span>
+					<span id="classifiction3" class="label label-success margin-left">
+						工具使用(17)
+					</span>
+					<span id="classifiction4" class="label label-warning margin-left">
+						Windows(10)
+					</span>
+				</div>
+				<!--left content-->
+				<div class="margin-top col-lg-8 col-md-8 col-sm-12 col-xs-12" style="height: 400px;background-color: red;">
+					
+				</div>
+				<!--right content-->
+				<div class="margin-top col-lg-4 col-md-4 hidden-sm hidden-xs" style="height: 400px;background-color: fuchsia;">
+					
+				</div>
+				
+				<!--footer-->
+				<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 margin-top" style="height: 50px;background-color: fuchsia;">
+					
+				</div>
+			</div>
+        </div>
+        
+		<!--import jquery js and bootstrap js file-->
+		<script type="text/javascript" src="lib/jquery/jquery.min.js" ></script>
+		<script type="text/javascript" src="lib/bootstrap/js/bootstrap.min.js" ></script>
+	</body>
+</html>
